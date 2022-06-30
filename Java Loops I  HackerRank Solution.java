@@ -8,7 +8,7 @@ import java.util.regex.*;
 
 
 public class Solution4 {
-	private static final Scanner scanner = new Scanner(System.in);
+	private static final Scanner scanner = new Scanner(System.in); //private static final will be considered as constant and the constant can be accessed within this class only. Since, the keyword static included, the value will be constant for all the objects of the class. private final variable value will be like constant per object. You can refer the java.
 	public static void main(String[] args) {
 		System.out.println("Enter a number:");
         int N = scanner.nextInt();
